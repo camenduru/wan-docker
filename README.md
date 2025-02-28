@@ -5,6 +5,10 @@
 ###  🐳 Docker
 https://hub.docker.com/r/camenduru/wan-2-1-i2v-comfyui
 
+### 🏷Tags
+`camenduru/wan-2-1-i2v-comfyui:fp8` <br />
+`camenduru/wan-2-1-i2v-comfyui:fp16`
+
 ### 🧬 Code
 https://github.com/Wan-Video/Wan2.1
 
