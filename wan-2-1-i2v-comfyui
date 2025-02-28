@@ -26,7 +26,7 @@ USER camenduru
 RUN pip install torch==2.5.1+cu124 torchvision==0.20.1+cu124 torchaudio==2.5.1+cu124 torchtext==0.18.0 torchdata==0.8.0 --extra-index-url https://download.pytorch.org/whl/cu124 && \
     pip install xformers==0.0.28.post3 && \
     pip install opencv-python imageio imageio-ffmpeg ffmpeg-python torchsde diffusers accelerate peft timm scikit-image matplotlib && \
-    pip install numpy>=1.25.0 einops transformers>=4.28.1 tokenizers>=0.13.3 sentencepiece aiohttp>=3.11.8 yarl>=1.18.0 pyyaml Pillow scipy tqdm psutil kornia>=0.7.1 spandrel soundfile av && \
+    pip install numpy==1.25.0 einops transformers==4.28.1 tokenizers==0.13.3 sentencepiece aiohttp==3.11.8 yarl==1.18.0 pyyaml Pillow scipy tqdm psutil kornia==0.7.1 spandrel soundfile av && \
     git clone https://github.com/comfyanonymous/ComfyUI /content/ComfyUI && \
     aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors -d /content/ComfyUI/models/clip_vision -o clip_vision_h.safetensors && \
     aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_720p_14B_fp8_e4m3fn.safetensors -d /content/ComfyUI/models/diffusion_models -o wan2.1_i2v_720p_14B_fp8_e4m3fn.safetensors && \
