@@ -3,11 +3,12 @@
 🥳 Please join my patreon community https://patreon.com/camenduru <br />
 
 ###  🐳 Docker
+https://hub.docker.com/r/camenduru/wan-2-1-i2v-comfyui
 
 ### 🧬 Code
-
-### 📄 Paper
+https://github.com/Wan-Video/Wan2.1
 
 ### 🌐 Page
+https://wanxai.com/
 
 ### 🖼 Output
