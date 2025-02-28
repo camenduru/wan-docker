@@ -15,7 +15,7 @@ profiles:
         cpu:
           units: 12
         memory:
-          size: 12Gi
+          size: 24Gi
         storage:
           - size: 50Gi
         gpu:
