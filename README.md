@@ -10,7 +10,7 @@ https://hub.docker.com/r/camenduru/wan-2-1-i2v-comfyui
 `camenduru/wan-2-1-i2v-comfyui:fp16`
 
 ### 📋 Tutorial
-https://hub.docker.com/r/camenduru/wan-2-1-i2v-comfyui
+https://comfyanonymous.github.io/ComfyUI_examples/wan/
 
 ### 🧬 Code
 https://github.com/Wan-Video/Wan2.1
