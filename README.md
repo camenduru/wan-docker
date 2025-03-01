@@ -12,8 +12,8 @@ https://hub.docker.com/r/camenduru/wan-2-1-i2v-comfyui
 ### 📋 Tutorial
 Workflow: https://comfyanonymous.github.io/ComfyUI_examples/wan/ <br />
 Default Port: `8188` <br />
-24GB VRAM: `docker container run -it --gpus device=0 -p 8188:8188 camenduru/wan-2-1-i2v-comfyui:fp8` <br />
-64GB VRAM: `docker container run -it --gpus device=0 -p 8188:8188 camenduru/wan-2-1-i2v-comfyui:fp16`
+24GB VRAM: `docker container run -it --rm --gpus device=0 -p 8188:8188 camenduru/wan-2-1-i2v-comfyui:fp8` <br />
+64GB VRAM: `docker container run -it --rm --gpus device=0 -p 8188:8188 camenduru/wan-2-1-i2v-comfyui:fp16`
 
 ### 🧬 Code
 https://github.com/Wan-Video/Wan2.1
