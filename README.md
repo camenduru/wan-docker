@@ -16,3 +16,5 @@ https://github.com/Wan-Video/Wan2.1
 https://wanxai.com/
 
 ### 🖼 Output
+
+https://github.com/user-attachments/assets/715ced93-8979-4851-9683-1696765b4050
